@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import App2 from './App2';
 // import Resume from './Resume';
-import ChildParent from './ChildParent';
+// import ChildParent from './ChildParent';
+// import ListApp from './ListApp';
+import Form from './Form';
+
 import './index.css';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +34,6 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <ChildParent />
+    <Form />
   </React.StrictMode>
 )
