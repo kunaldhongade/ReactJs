@@ -1,0 +1,14 @@
+.changeSize {
+    max-width: 50%;
+    height: auto;
+}
+
+div {
+    padding: 0.5rem;
+    margin: 2rem;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}

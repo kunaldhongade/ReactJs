@@ -13,7 +13,12 @@ const Form = () => {
 
     const handleKeyPress = (e) => {
         e.preventDefault()
-        alert(e.target.value)
+        console.log(e.key)
+        console.log(e.target.value)
+        if (e.key === 'Enter') {
+            alert(e.target.value)
+            console.log("You entered enter!")
+        }
     }
     return (
         <>
@@ -25,9 +30,9 @@ const Form = () => {
             </form>
 
             <form action="">
-
-                <input type="text" />
-                <button type='submit' onKeyPress={handleKeyPress}>Button</button>
+                <input type="text"
+                    placeholder="Enter something"
+                    onKeyPress={handleKeyPress} />
             </form>
         </>
     )

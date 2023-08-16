@@ -1,0 +1,16 @@
+div {
+    padding: 5%;
+    margin: 5%;
+}
+
+.grandparent {
+    background-color: beige;
+}
+
+.parent {
+    background-color: aquamarine;
+}
+
+.child {
+    background-color: aqua;
+}
