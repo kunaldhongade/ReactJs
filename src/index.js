@@ -7,7 +7,9 @@ import ReactDOM from 'react-dom/client';
 // import ListApp from './ListApp';
 // import Form from './Form';
 // import IIB from './IIB';
-import GrandParentChild from './GrandParentChild';
+// import GrandParentChild from './GrandParentChild';
+// import Clock from './Clock';
+import DigiClock from './DigiClock';
 
 import './index.css';
 
@@ -36,6 +38,6 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <GrandParentChild />
+    <DigiClock />
   </React.StrictMode>
 )
