@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import App2 from './App2';
-// import Resume from './Resume';
+import Resume from './components/Resume';
 // import ChildParent from './ChildParent';
 // import ListApp from './ListApp';
 // import Form from './Form';
 // import IIB from './IIB';
 // import GrandParentChild from './GrandParentChild';
 // import Clock from './Clock';
-import DigiClock from './DigiClock';
+// import DigiClock from './DigiClock';
+
 
 import './index.css';
 
@@ -38,6 +39,6 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <DigiClock />
+    <Resume />
   </React.StrictMode>
 )

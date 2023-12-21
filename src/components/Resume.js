@@ -16,8 +16,7 @@ function Resume() {
             <h3>Experience</h3>
             <ul>
                 <li>{resume.experience.map((experience) => {
-                    return <li><p>{experience.role} at {experience.company}
-                        in {experience.year}</p></li>
+                    return <li><p>{experience.role} at {experience.company} in {experience.year}</p></li>
                 })}</li>
             </ul>
             <h3>Education</h3>
