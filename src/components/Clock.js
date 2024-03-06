@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 const Clock = () => {
     let t = new Date().toLocaleTimeString()
@@ -20,5 +20,3 @@ const Clock = () => {
 }
 
 export default Clock
-
-// passing state through component
